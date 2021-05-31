@@ -56,9 +56,9 @@ const Cart = (): JSX.Element => {
         <thead>
           <tr>
             <th aria-label="product image" />
-            <th>PRODUTO</th>
-            <th>QTD</th>
-            <th>SUBTOTAL</th>
+            <th>PRODUCT</th>
+            <th>AMOUNT</th>
+            <th>TOTAL</th>
             <th aria-label="delete icon" />
           </tr>
         </thead>
@@ -115,7 +115,7 @@ const Cart = (): JSX.Element => {
       </ProductTable>
 
       <footer>
-        <button type="button">Finalizar pedido</button>
+        <button type="button">Checkout</button>
 
         <Total>
           <span>TOTAL</span>
